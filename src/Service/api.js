@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const usersUrl = 'http://localhost:5000/api/users/';
+const usersUrl = 'https://guarded-thicket-48521.herokuapp.com/api/users/';
 
 
 export const getUsers = async (id) => {
